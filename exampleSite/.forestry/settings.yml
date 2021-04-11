@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
@@ -14,6 +12,8 @@ sections:
   new_doc_ext: '20191203072044'
   templates:
   - post
+- type: heading
+  label: Blog Post
 - type: directory
   path: exampleSite/content/french/blog
   label: Post (fr)
